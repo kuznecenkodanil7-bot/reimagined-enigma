@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "creepypasta",
+  "version": "${version}",
+  "name": "Creepypasta Nightmare",
+  "description": "A brutal Fabric creepypasta horror mod: stalker entity, screamers, world glitches, lightning and a nightmare dimension.",
+  "authors": ["ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/creepypasta/textures/gui/screamer.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.creepypasta.nightmare.CreepypastaMod"],
+    "client": ["ru.creepypasta.nightmare.client.CreepypastaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
