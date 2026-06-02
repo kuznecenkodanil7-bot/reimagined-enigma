@@ -27,12 +27,12 @@ public final class StalkerEntity extends HostileEntity {
 
     public static DefaultAttributeContainer.Builder createStalkerAttributes() {
         return HostileEntity.createHostileAttributes()
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 200.0D)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 1.0D)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.38D)
-                .add(EntityAttributes.GENERIC_FOLLOW_RANGE, 96.0D)
-                .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1.0D)
-                .add(EntityAttributes.GENERIC_STEP_HEIGHT, 1.2D);
+                .add(EntityAttributes.MAX_HEALTH, 200.0D)
+.add(EntityAttributes.ATTACK_DAMAGE, 1.0D)
+.add(EntityAttributes.MOVEMENT_SPEED, 0.38D)
+.add(EntityAttributes.FOLLOW_RANGE, 96.0D)
+.add(EntityAttributes.KNOCKBACK_RESISTANCE, 1.0D)
+.add(EntityAttributes.STEP_HEIGHT, 1.2D);
     }
 
     @Override
